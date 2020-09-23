@@ -1,4 +1,4 @@
-# Gruppe 8 - nettide - digital markedsføring
+# Gruppe 8 - nettside - digital markedsføring
 Git Repo for all kode til gpruppe oppgaven.
 
 ### Skisse av første design
