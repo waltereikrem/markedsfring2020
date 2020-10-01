@@ -9,7 +9,7 @@ atm skal mye endres:
 1. **Innhold** - riktig artikkel innhold.
 
 
-under er skissen av første versjonen. Fork av en tidligere oppgave jeg gjorde i 2019. les comit+log for mer info on den oppgaven.
+under er skissen av første versjonen. Fork av en tidligere oppgave jeg gjorde i 2018. les comit+log for mer info on den oppgaven.
 ![](https://i.imgur.com/a2TXxxr.png)
 
 Atm vill denne siden score høyt på google lighthouse (SEO) test. den er også laget med css grid. og mediaframes. dvs at den skaleres perfekt til alle skjermer man kan se for seg ville sett på siden. noe som er kristisk for SEO.
