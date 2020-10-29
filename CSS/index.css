@@ -24,22 +24,22 @@ header {
   box-shadow: 0px 4px 18px -3px rgba(0, 0, 0, 0.82);
   padding-bottom: 0px;
   border-bottom: 2px solid #644a3e;
-  font-family: Ubuntu;
+  font-family:  Apex, Trebuchet, Calibri;
   z-index: 2;
   position: sticky;
   top: 0;
   /* grid oppdeling av header */
   /* ------------------------ */
   display: grid;
-  margin-bottom: -20rem;
+  margin-bottom: -6rem;
   /*------------------gappet mellom header & main (krise løsning)-----*/
   grid-template-columns: 5% 90% 5%;
   width: 100%;
   height: 100%;
   grid-template-rows: 20px auto;
   grid-template-areas:
-    " logo nav ."
-    "logo tittel .";
+    ". nav ."
+    ". tittel .";
 }
 
 .logo {
@@ -78,7 +78,7 @@ header h1:hover {
 /* menyen */
 header nav {
   font-size: 11px;
-  font-family: Roboto;
+  font-family: Apex, Trebuchet, Calibri;
   text-align: center;
   max-width: 60%;
   margin: auto;
@@ -120,7 +120,7 @@ header nav a:hover {
 /* Intro */
 .banner-area {
   border-top: solid 5px rgba(255, 255, 255, 0.9);
-  font-family: Helvetica;
+  font-family: Apex, Trebuchet, Calibri;
   color: #644a3e;
   font-variant: small-caps;
   transition: opacity .5s ease-in-out;
@@ -149,13 +149,13 @@ header nav a:hover {
 }
 
 .text-felter p {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #2b2b2b;
   margin-bottom: 1rem;
 }
 
 .text-felter h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 1rem;
 }
 
@@ -170,7 +170,7 @@ header nav a:hover {
 ::-webkit-scrollbar-track {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.1);
-  border: 1px solid #ccc;
+  border: 1px solid #1b1b1b;
 }
 
 /* Handle */
@@ -187,8 +187,9 @@ header nav a:hover {
 
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 /* aside */
-.aside-header {
-  color: #644a3e;
+.andretittel {
+  margin-top: 25px;
+  color: #1b1b1b;
   text-decoration: none;
   text-align: center;
 }
@@ -198,7 +199,7 @@ header nav a:hover {
 }
 
 .aside-fixed {
-  font-family: ubuntu, sans-serif;
+  font-family: Apex, Trebuchet, Calibri;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.49);
   padding: 15px;
@@ -215,6 +216,10 @@ header nav a:hover {
   color: #644a3e;
   text-decoration: none;
   line-height: 2rem;
+}
+.aside-meny a:hover {
+  color: #1b1b1b;
+  text-decoration: underline;
 }
 
 .pixel-me {
@@ -249,6 +254,7 @@ footer {
 
 #copyright {
   font-size: 0.7rem;
+  font-weight: bold;
 }
 
 #contact {
@@ -256,113 +262,7 @@ footer {
   padding-left: 2.5rem;
   text-align: center;
   color: #644a3e;
-  font-family: Ubuntu, sans-serif;
-}
-
-/* ////////////////////////////////////////////////////////////////////////////////////////// */
-/* TEXT STIL */
-.artikkel-tittel {
-  font-size: 2em;
-  margin-bottom: 1rem;
-  color: #644a3e;
-}
-
-/* ////////////////////////////////////////////////////////////////////////////////////////// */
-/* API FELTET */
-.API {
-  font-family: Helvetica, sans-serif;
-  color: #644a3e;
-}
-
-.inputs {
-  text-align: center;
-}
-
-.label {
-  clear: both;
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  color: #644a3e;
-}
-
-#by-input {
-  width: 60%;
-  height: auto;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 20px;
-  border: 2px solid rgba(209, 195, 184, 1);
-  border-radius: 3px;
-  font: normal normal bold 16px/normal Ubuntu, Tahoma, Geneva, sans-serif;
-  color: rgba(107, 81, 57, 1);
-  background: rgba(252, 252, 252, 1);
-  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2) inset;
-}
-
-.resultat p {
-  /* text-align: center; */
-  display: inline-flex;
-  margin: 20px;
-}
-
-.resultat {
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.68);
-  margin: auto;
-  padding: 35px;
-  color: #FFF;
-  box-shadow: inset 0px 0px 21px 0px rgba(0, 35, 125, 1);
-  /* background-color: #323a65; */
-  background: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #323a65 100%);
-}
-
-#by-input {
-  margin-bottom: 15px;
-}
-
-.soke-knapp {
-  box-shadow: inset 1px 1px 3px 0px #b8a391;
-  background-color: #644a3e;
-  border-radius: 5px;
-  border: 1px solid #696256;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 0.66rem 23px;
-  text-decoration: none;
-  text-shadow: -1px -1px 5px #66432c;
-}
-
-.soke-knapp:hover {
-  background-color: #4d3930;
-}
-
-/* ------------------- */
-/* resultatet */
-.icon {
-  display: block;
-  margin: auto;
-}
-
-#sted {
-  text-align: center;
-}
-
-.section p {
-  /* display: inline-block; */
-}
-/* ////////////////////////////////////////////////////////////////////////////////////////// */
-/* RAPPORT TEXTEN */
-.rapport{
-  font-family: Helvetica, sans-serif;
-  color: #644a3e;
-}
-
-.rapport h3{
-  margin-top: 60px;
+  font-family: Apex, Trebuchet, Calibri;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
