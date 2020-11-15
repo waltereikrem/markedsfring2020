@@ -42,6 +42,26 @@ header {
     ". tittel .";
 }
 
+.button{
+  border: solid #644a3e 3px;
+  color: #644a3e;
+  font-weight: bold;
+  padding: 1em;
+  cursor: pointer;
+  transition: .5s;
+
+}
+
+.button:hover{
+  background-color: #af9183;
+  border: solid #251f1d 3px;
+  color: #251f1d;
+  font-weight: bold;
+  padding: 1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .logo {
   cursor: pointer;
   max-height: 50px;
